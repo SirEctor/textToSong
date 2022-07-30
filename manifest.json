@@ -5,7 +5,7 @@
   "version": "1.0",
 
   "description": "Utilizes usdivad's meSing.js library to take the highlighted text and generate an audio file containing the text as song.",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "homepage_url": "https://github.com/SirEctor/textToSong/tree/main",
   "icons": {
     "48": "icons/songs-48.png"
   },
