@@ -4,7 +4,7 @@ document.addEventListener("click", (e) => {
     switch (e.target.textContent) {
         case "Read Highlighted":
             browser.tabs.executeScript({
-                code:"document.getSelection().toString()"
+                code:"document.getSelection().toString().split(' ')"
             }).then(results => {
                 if(results != ""){
                     hDisplay.textContent = results;
